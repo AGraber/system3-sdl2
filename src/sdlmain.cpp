@@ -52,7 +52,7 @@ int main(int argc, char *argv[])
 #else
 	Uint32 flags = SDL_WINDOW_RESIZABLE;
 #endif
-	g_window = SDL_CreateWindow(initial_title, SDL_WINDOWPOS_UNDEFINED, SDL_WINDOWPOS_UNDEFINED, 640, 400, flags);
+	g_window = SDL_CreateWindow(initial_title, SDL_WINDOWPOS_UNDEFINED, SDL_WINDOWPOS_UNDEFINED, 1920, 1080, flags);
 	g_renderer = SDL_CreateRenderer(g_window, -1, 0);
 
 	// system3 初期化
